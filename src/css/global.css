@@ -1,0 +1,13 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+}
+div{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    background: linear-gradient(68.44deg, #392D69 0%, #58418A 18.54%, #7754AC 41.98%, #9668CD 66.98%, #B57BEE 100%);
+    border-radius: 12px;
+    transform-style: preserve-3d;
+}
