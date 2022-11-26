@@ -1,13 +1,45 @@
-main{
-    width: 100%;
+.logo{
+    border-radius: 50%;
+    
+}
+.container{
     display: flex;
     justify-content: space-around; 
+    width: 100%;
 }
-div{
-    width: 350px;
-    height: 220px;
-    position: relative;
+.form{
+    margin-right: 10px ;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.cartao__busca{
     background: linear-gradient(68.44deg, #392D69 0%, #58418A 18.54%, #7754AC 41.98%, #9668CD 66.98%, #B57BEE 100%);
     border-radius: 12px;
+    height: 220px;
+    margin-left: 10px;
+    position: relative;
     transform-style: preserve-3d;
+    width: 50%;
+    text-align: center;
+}
+
+.cartao__busca img{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.cartao__busca p{
+    color: #fdfdfd;
+    font-size: 1.5rem;
+}
+
+.cartao__busca a{
+    color: #fdfdfd;
+}
+
+#divDados{
+    color: #fdfdfd;
+    text-align: center;
 }
