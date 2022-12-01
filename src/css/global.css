@@ -1,11 +1,39 @@
+/* Indigo Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="light"])  {
+  --primary: #3949ab;
+  --primary-hover: #303f9f;
+  --primary-focus: rgba(57, 73, 171, 0.125);
+  --primary-inverse: #FFF;
+  
+}
+article{
+    padding: 0;
+}
+.navBar{
+    margin: 50px;
+}
+
 .logo{
     border-radius: 50%;
+    width: 100px;
     
 }
-.container{
+.container__geral{
     display: flex;
     justify-content: space-around; 
+    flex-direction: column;
     width: 100%;
+}
+
+.navBar ul li strong{
+    color: #3949ab;
+    font-size: 1.5rem;
+}
+.conteudo{
+    display: flex;
+    margin: 50px;
 }
 .form{
     margin-right: 10px ;
@@ -14,7 +42,7 @@
 }
 
 .cartao__busca{
-    background: linear-gradient(68.44deg, #392D69 0%, #58418A 18.54%, #7754AC 41.98%, #9668CD 66.98%, #B57BEE 100%);
+    background: #3949ab;
     border-radius: 12px;
     height: 220px;
     margin-left: 10px;

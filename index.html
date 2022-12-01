@@ -7,20 +7,26 @@
     <title>APP Localizador de Perfis</title>
   </head>
   <body>
-    <nav>
-      LOCALIZADOR DE PERFIS
-    <img class="logo" src="./src/img/github.png" alt="">
-    </nav>
-    <main class="container">
-      <form class="form" id="consultaPerfil" action="#">
-        <input name="nome" class="consultaNome" type="text">
-        <button>Buscar</button>
-      </form>
-      <div id="dados" class="cartao__busca">
-        
-      </div>
+    <article>
+        <main class="container__geral">
+        <header>
+          <nav class="navBar">
+          <ul>
+            <li><img class="logo" src="./src/img/github.png" alt=""></li>
+            <li><strong>LOCALIZADOR DE PERFIS</strong></li>
+          </ul>          
+        </nav>
+        </header>
+        <div class="conteudo">
+          <form class="form" id="consultaPerfil" action="#">
+            <input name="nome" class="consultaNome" type="text">
+            <button>Buscar</button>
+          </form>
+          <div id="dados" class="cartao__busca"></div>
+        </div>
+      </main>
+      </article>
 
-    </main>
     <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
